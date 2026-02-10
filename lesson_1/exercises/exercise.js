@@ -23,7 +23,7 @@ function a() {
   // TODO: What is the call stack at [1]?
   // Stack at [1]: ???
   b();
-  // TODO: What is the call stack at [4]?
+  // TODO: What is t+*-----------------------------------
   // Stack at [4]: ???
 }
 
@@ -42,7 +42,7 @@ function c() {
 a();
 // TODO: What is the call stack at [5]?
 // Stack at [5]: ???
-
+//abccon console.log("Hello from c!");
 
 // ------------------------------------------------------------
 // Exercise 2: Predict the Output
@@ -50,7 +50,7 @@ a();
 // Goal: Identify synchronous execution order.
 //
 // TODO: Before running, write your predicted output as comments
-// below each console.log group. Then run to verify.
+// below each console.log group. Then run to verify.0
 
 console.log("\n--- Exercise 2 ---");
 
@@ -62,9 +62,8 @@ second();
 first();
 third();
 
-// Predicted output:
-// ???
-
+// Predicted output: 2, 1, 3
+comsole.log("2, 1,
 
 // ------------------------------------------------------------
 // Exercise 3: Introduction to setTimeout
